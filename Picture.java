@@ -10,6 +10,7 @@
  * @author  Michael Kolling
  * @version 1.0  (15 July 2000)
  */
+
 public class Picture
 {
     int movex = 1;
@@ -17,7 +18,9 @@ public class Picture
     Paddle paddle0;
     Paddle paddle1;
     Ball ball;
-
+    
+   
+}
     /**
      * Constructor for objects of class Picture
      */
@@ -48,6 +51,8 @@ public class Picture
             if (ball.yPosition < ball.diameter/2 || ball.yPosition > (600-(ball.diameter/2))){
                 movey = 0 - movey;
             }
+
+    }
     }
         
     }
